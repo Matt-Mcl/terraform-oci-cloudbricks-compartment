@@ -60,4 +60,9 @@ variable "sleep_timer" {
 
 /********** Compartment Variables **********/
 
+variable "is_orm" {
+  description = "Boolean that describes if the compartment is being provisoned by ORM. This shouldn't ever be set to true manually."
+  default     = false
+}
+
 /********** Brick Variables **********/
